@@ -14,22 +14,3 @@ FILES:
 life.c - game of life main function
 logic.c - logic for game of life
 logic.h - header file for logic.c
-
-
-
-PURPOSE: 
-
-In this lab, we put everything we learned to the test to create Conway's Game of Life in C.
-
-
-
-CONCLUSION:
-
-    In this lab, we practiced working with arrays. There was no pair programming,
-but I think it turned out okay anyway. 
-
-    When the -x option to randomize colors is used, the program ends with a seg fault
-about 50% of the time. I ran out of time to fix it. If it happens, you can re-run the
-program and it will eventually run, and often it works the first time, but not every time.
-
-    It was a good semester and I learned a lot.
