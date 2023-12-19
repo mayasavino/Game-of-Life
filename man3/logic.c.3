@@ -1,0 +1,82 @@
+.TH "logic.c" 3 "Thu May 4 2023" "Conway's Game of Life - CSE113 - Maya Savino" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+logic.c \- header file for \fBlogic\&.c\fP; initializes functions  
+
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <stdio\&.h>\fP
+.br
+\fC#include <stdlib\&.h>\fP
+.br
+\fC#include <string\&.h>\fP
+.br
+\fC#include 'logic\&.h'\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "unsigned char ** \fBinit_matrix\fP (int rows, int cols)"
+.br
+.ti -1c
+.RI "void \fBfree_matrix\fP (unsigned char **A, int rows)"
+.br
+.ti -1c
+.RI "void \fBhedge\fP (unsigned char **A, unsigned char **B, int rows, int cols)"
+.br
+.ti -1c
+.RI "void \fBtorus\fP (unsigned char **A, unsigned char **B, int rows, int cols)"
+.br
+.ti -1c
+.RI "void \fBklein\fP (unsigned char **A, unsigned char **B, int rows, int cols)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+header file for \fBlogic\&.c\fP; initializes functions 
+
+
+.PP
+\fBAuthor\fP
+.RS 4
+Maya Savino
+.RE
+.PP
+\fBDate\fP
+.RS 4
+05/03/2023
+.RE
+.PP
+Assignment: Final - Conway's Game of Life
+.PP
+@bugs none
+.PP
+\fBTodo\fP
+.RS 4
+none
+.RE
+.PP
+.PP
+\fBParameters\fP
+.RS 4
+\fIinit_matrix\fP initializes the matrix 
+.br
+\fIfree_matrix\fP frees the matrix 
+.br
+\fIhedge\fP hedge implementation 
+.br
+\fItorus\fP torus implementation 
+.br
+\fIklein\fP klein implementation 
+.br
+\fIrandomize_colors\fP randomizes colors 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Conway's Game of Life - CSE113 - Maya Savino from the source code\&.

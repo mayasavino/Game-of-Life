@@ -1,0 +1,76 @@
+\hypertarget{life_8c}{}\doxysection{life.\+c File Reference}
+\label{life_8c}\index{life.c@{life.c}}
+
+
+game of life main function  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$ctype.\+h$>$}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+{\ttfamily \#include $<$unistd.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}logic.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}sdl.\+h\char`\"{}}\newline
+Include dependency graph for life.\+c\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{life_8c_a0ddf1224851353fc92bfbff6f499fa97}\label{life_8c_a0ddf1224851353fc92bfbff6f499fa97}} 
+int {\bfseries main} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\item 
+\mbox{\Hypertarget{life_8c_a519acbf72d93ce9907b7ea7fe73fb123}\label{life_8c_a519acbf72d93ce9907b7ea7fe73fb123}} 
+int {\bfseries randomize\+\_\+colors} (int color)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+game of life main function 
+
+logic for game of life
+
+\begin{DoxyAuthor}{Author}
+Maya Savino
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+05/03/2023
+\end{DoxyDate}
+Assignment\+: Final -\/ Conway\textquotesingle{}s Game of Life
+
+@bugs none
+
+\begin{DoxyRefDesc}{Todo}
+\item[\mbox{\hyperlink{todo__todo000001}{Todo}}]none \end{DoxyRefDesc}
+
+
+\begin{DoxyAuthor}{Author}
+Maya Savino
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+05/03/2023
+\end{DoxyDate}
+Assignment\+: Final -\/ Conway\textquotesingle{}s Game of Life
+
+@bugs -\/x option sometimes induces a seg fault, typecasing issue
+
+\begin{DoxyRefDesc}{Todo}
+\item[\mbox{\hyperlink{todo__todo000002}{Todo}}]fix -\/x option (for randomizing colors)\end{DoxyRefDesc}
+
+
+
+\begin{DoxyParams}{Parameters}
+{\em init\+\_\+matrix} & initializes the matrix \\
+\hline
+{\em free\+\_\+matrix} & frees the matrix \\
+\hline
+{\em hedge} & hedge implementation \\
+\hline
+{\em torus} & torus implementation \\
+\hline
+{\em klein} & klein implementation \\
+\hline
+{\em randomize\+\_\+colors} & randomizes colors \\
+\hline
+\end{DoxyParams}

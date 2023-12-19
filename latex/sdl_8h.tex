@@ -1,0 +1,59 @@
+\hypertarget{sdl_8h}{}\doxysection{sdl.\+h File Reference}
+\label{sdl_8h}\index{sdl.h@{sdl.h}}
+
+
+logic for game of life  
+
+
+{\ttfamily \#include $<$S\+D\+L2/\+S\+D\+L.\+h$>$}\newline
+Include dependency graph for sdl.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structcolor__t}{color\+\_\+t}}
+\item 
+struct \mbox{\hyperlink{structsdl__info__t}{sdl\+\_\+info\+\_\+t}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{sdl_8h_a1094292af49bb6c4abf089ab73a79bb9}\label{sdl_8h_a1094292af49bb6c4abf089ab73a79bb9}} 
+void {\bfseries init\+\_\+sdl\+\_\+info} (struct \mbox{\hyperlink{structsdl__info__t}{sdl\+\_\+info\+\_\+t}} $\ast$sdl\+\_\+info, int width, int height, int sprite\+\_\+size, unsigned int red, unsigned int green, unsigned int blue)
+\item 
+\mbox{\Hypertarget{sdl_8h_afec672c5d4f9b0381339bd3229f28889}\label{sdl_8h_afec672c5d4f9b0381339bd3229f28889}} 
+void {\bfseries sdl\+\_\+render\+\_\+life} (struct \mbox{\hyperlink{structsdl__info__t}{sdl\+\_\+info\+\_\+t}} $\ast$sdl\+\_\+info, unsigned char $\ast$$\ast$life)
+\item 
+\mbox{\Hypertarget{sdl_8h_ada6b3150b36edb0a418e47d340006ea4}\label{sdl_8h_ada6b3150b36edb0a418e47d340006ea4}} 
+void {\bfseries sdl\+\_\+test} (struct \mbox{\hyperlink{structsdl__info__t}{sdl\+\_\+info\+\_\+t}} $\ast$sdl\+\_\+info, int m, int n)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+logic for game of life 
+
+\begin{DoxyAuthor}{Author}
+Maya Savino
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+05/03/2023
+\end{DoxyDate}
+Assignment\+: Final -\/ Conway\textquotesingle{}s Game of Life
+
+@bugs none
+
+\begin{DoxyRefDesc}{Todo}
+\item[\mbox{\hyperlink{todo__todo000004}{Todo}}]none\end{DoxyRefDesc}
+
+
+
+\begin{DoxyParams}{Parameters}
+{\em init\+\_\+sdl\+\_\+info} & initialize with given info \\
+\hline
+{\em sdl\+\_\+render\+\_\+life} & render game of life \\
+\hline
+{\em sdl\+\_\+test} & for testing \\
+\hline
+\end{DoxyParams}
